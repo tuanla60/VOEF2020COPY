@@ -151,7 +151,38 @@ jQuery(function($) {
         },
     });
 
-    var swiper1 = new Swiper('#slide_university', {
+    var swiper1 = new Swiper('#slide_sermina', {
+        slidesPerView: 1,
+        slidesPerColumn: 1,
+        spaceBetween: 1,
+        slidesPerGroup: 3,
+        loop: true,
+        loopFillGroupWithBlank: false,
+        pagination: {
+            el: '.swiper-pagination-sermina',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next-sermina',
+            prevEl: '.swiper-button-prev-sermina',
+        },
+        breakpoints: {
+            992: {
+                slidesPerView: 3,
+            },
+            580: {
+                slidesPerView: 2,
+                spaceBetween: 1,
+            },
+            355: {
+                slidesPerView: 1.3,
+                spaceBetween: 1,
+            }
+        }
+
+    });
+
+    var swiper2 = new Swiper('#slide_university', {
         slidesPerView: 1,
         slidesPerColumn: 1,
         spaceBetween: 28,
@@ -182,7 +213,7 @@ jQuery(function($) {
 
     });
 
-    var swiper2 = new Swiper('#slide_tab_university', {
+    var swiper3 = new Swiper('#slide_tab_university', {
         slidesPerView: 4,
         spaceBetween: 40,
         slidesPerColumn: 2,
