@@ -361,7 +361,8 @@ img:not([src]) {
 	footer {
 		position: relative;
 		display: block;
-		background: #083D77;
+		background-color: #2575FC;
+		background: linear-gradient(151.93deg, #6A11CB 0%, #2575FC 100%);
 		color: #fff;
 		padding: 22px 0;
 		.footer-inner {
@@ -633,21 +634,22 @@ img:not([src]) {
 			width: 32px;
 			font-size: 26px;
 		}
+		&.back-to-top-badge-visible {
+			pointer-events: all;
+			-webkit-transform: translateY(-25px);
+			-moz-transform: translateY(-25px);
+			-o-transform: translateY(-25px);
+			transform: translateY(-25px);
+			-webkit-transition: all 250ms ease;
+			transition: all 250ms ease;
+		}
+		&.back-to-top-small {
+			overflow: hidden;
+			bottom: 0;
+			font-size: 0;
+		}
 	}
-	.back-to-top-badge-visible {
-		pointer-events: all;
-		-webkit-transform: translateY(-25px);
-		-moz-transform: translateY(-25px);
-		-o-transform: translateY(-25px);
-		transform: translateY(-25px);
-		-webkit-transition: all 250ms ease;
-		transition: all 250ms ease;
-	}
-	.back-to-top-small {
-		overflow: hidden;
-		bottom: 0;
-		font-size: 0;
-	}
+	
 }
 
 
