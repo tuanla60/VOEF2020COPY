@@ -700,6 +700,159 @@
 	}
 
 
+	.section-scholarship {
+		position: relative;
+		display: block;
+		clear: both;
+		padding: 30px 0;
+		background-color: #6A11CB;
+		background: -webkit-linear-gradient(355deg, #6A11CB 0%, #2575FC 100%);
+		background: -o-linear-gradient(355deg, #6A11CB 0%, #2575FC 100%);
+		background: linear-gradient(85deg, #6A11CB 0%, #2575FC 100%);
+		background-attachment: fixed;
+		.triangle-up {
+			position: absolute;
+			display: block;
+			top: 0;
+			width: 100%;
+			text-align: center;
+			&:before {
+				content: "";
+				position: absolute;
+				display: block;
+				width: 35px;
+				height: 74px;
+				left: -39px;
+				right: 0;
+				top: -35px;
+				margin: auto;
+				background: -webkit-linear-gradient(355deg, #6A11CB 0%, #2575FC 100%);
+				background: -o-linear-gradient(355deg, #6A11CB 0%, #2575FC 100%);
+				background: linear-gradient(85deg, #6A11CB 0%, #2575FC 100%);
+				background-attachment: fixed;
+				border-radius: 10px;
+				transform: rotate(60deg);
+			}
+			&:after {
+				content: "";
+				position: absolute;
+				display: block;
+				width: 74px;
+				height: 35px;
+				left: 46px;
+				right: 0;
+				top: -14px;
+				margin: auto;
+				background: -webkit-linear-gradient(355deg, #6A11CB 0%, #2575FC 100%);
+				background: -o-linear-gradient(355deg, #6A11CB 0%, #2575FC 100%);
+				background: linear-gradient(85deg, #6A11CB 0%, #2575FC 100%);
+				background-attachment: fixed;
+				border-radius: 10px;
+				transform: rotate(30deg);
+			}
+			span {
+				position: absolute;
+				display: block;
+				z-index: 1;
+				top: -30px;
+				left: 0;
+				right: 0;
+				margin: 0 auto;
+				width: 100px;
+				height: 35px;
+				line-height: 38px;
+				font-size: 21px;
+				color: #fff;
+				text-align: center;
+			}
+		}
+		.scholarship-inner {
+			display: block;
+		}
+		.scholarship-box-title {
+			position: relative;
+			display: block;
+			width: 100%;
+			vertical-align: top;
+			color: #ffffff;
+			text-align: center;
+			z-index: 2;
+			.title-name {
+				position: relative;
+				display: block;
+				font-family: 'Averta-Bold';
+				font-size: 24px;
+				line-height: 29px;
+				margin-bottom: 20px;
+				padding: 0 0 25px;
+				text-transform: uppercase;
+				&:before {
+					content: "";
+					position: absolute;
+					width: 175px;
+					height: 15px;
+					background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='176' height='15' viewBox='0 0 176 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cg clip-path='url(%23clip0)'%3e%3crect x='0.928925' y='6.57104' width='70' height='1' fill='%232575FC'/%3e%3crect x='88' width='10' height='10' transform='rotate(45 88 0)' fill='%232575FC'/%3e%3crect x='105.071' y='6.57104' width='70' height='1' fill='%232575FC'/%3e%3c/g%3e%3cdefs%3e%3cclipPath id='clip0'%3e%3crect x='0.928925' width='174.142' height='14.1421' fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e ");
+					bottom: 0;
+					left: 0;
+					right: 0;
+					margin: 0 auto;
+					pointer-events: none;
+				}
+			}
+			.title-sub {
+				position: relative;
+				display: block;
+				width: 100%;
+				height: 103px;
+				font-size: 18px;
+				line-height: 1.4;
+				text-align: justify;
+				margin-bottom: 25px;
+			}
+		}
+		.scholarship-box-list {
+			position: relative;
+			display: block;
+			float: left;
+			vertical-align: top;
+			width: 100%;
+			.table-responsive-sm {
+
+			}
+			.scholarship-table {
+				min-width: 690px;				
+				font-family: Arial;
+				font-style: normal;
+				font-weight: normal;
+				font-size: 15px;
+				line-height: 17px;
+				color: #333333;
+				thead {
+					padding: 0 20px;
+					white-space: nowrap;
+					background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='1101' height='58' viewBox='0 0 1101 58' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M0 0.344238H1044C1075.48 0.344238 1101 25.864 1101 57.3442H0V0.344238Z' fill='%232575FC'/%3e%3c/svg%3e ");
+					background-repeat: no-repeat;
+					background-size: 100% 100%;
+				}
+				tbody {
+					background: #F7F9FB;
+					padding: 0 20px;
+					height: 396px;
+					overflow-y: auto;
+				}
+			}
+			th {
+				font-family: 'Averta-Bold';
+				font-size: 18px;
+				line-height: 22px;
+				color: #fff;
+				padding: 22px 10px 13px;
+				text-align: left;
+				border-color: transparent;
+			}
+		}
+	}
+
 	.section-university-tab {
 		position: relative;
 		display: block;
