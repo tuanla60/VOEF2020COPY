@@ -136,10 +136,10 @@ jQuery(function($) {
         //lazy: true,
         //loop: true,
         //centeredSlides: true,
-        autoplay: {
-            delay: 4500,
-            disableOnInteraction: false,
-        },
+        // autoplay: {
+        //     delay: 4500,
+        //     disableOnInteraction: false,
+        // },
         pagination: {
             el: '.swiper-pagination-slide-home-v',
             clickable: true,
@@ -174,47 +174,51 @@ jQuery(function($) {
                 slidesPerView: 2,
                 spaceBetween: 1,
             },
-            355: {
-                slidesPerView: 1.3,
+            415: {
+                slidesPerView: 1.4,
+                spaceBetween: 1,
+            },
+            380: {
+                slidesPerView: 1.1,
                 spaceBetween: 1,
             }
         }
 
     });
 
-    var swiper2 = new Swiper('#slide_university', {
-        slidesPerView: 1,
-        slidesPerColumn: 1,
-        spaceBetween: 28,
-        slidesPerGroup: 3,
-        loop: true,
-        loopFillGroupWithBlank: false,
-        pagination: {
-            el: '.swiper-pagination-university',
-            clickable: true,
-        },
-        navigation: {
-            nextEl: '.swiper-button-next-university',
-            prevEl: '.swiper-button-prev-university',
-        },
-        breakpoints: {
-        	992: {
-        		slidesPerView: 3,
-        	},
-        	580: {
-        		slidesPerView: 2,
-        		spaceBetween: 10,
-        	},
-        	355: {
-        		slidesPerView: 1,
-        		spaceBetween: 5,
-        	}
-        }
+    // var swiper2 = new Swiper('#slide_university', {
+    //     slidesPerView: 1,
+    //     slidesPerColumn: 1,
+    //     spaceBetween: 28,
+    //     slidesPerGroup: 3,
+    //     loop: true,
+    //     loopFillGroupWithBlank: false,
+    //     pagination: {
+    //         el: '.swiper-pagination-university',
+    //         clickable: true,
+    //     },
+    //     navigation: {
+    //         nextEl: '.swiper-button-next-university',
+    //         prevEl: '.swiper-button-prev-university',
+    //     },
+    //     breakpoints: {
+    //     	992: {
+    //     		slidesPerView: 3,
+    //     	},
+    //     	580: {
+    //     		slidesPerView: 2,
+    //     		spaceBetween: 10,
+    //     	},
+    //     	355: {
+    //     		slidesPerView: 1,
+    //     		spaceBetween: 5,
+    //     	}
+    //     }
 
-    });
+    // });
 
     var swiper3 = new Swiper('#slide_tab_university', {
-        slidesPerView: 4,
+        slidesPerView: 1,
         spaceBetween: 40,
         slidesPerColumn: 2,
         slidesPerColumnFill: 'row',
