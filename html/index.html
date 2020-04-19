@@ -11,6 +11,7 @@
 
 	<link type="text/css" rel="stylesheet" href="../css/bootstrap.min.css" />
 	<link type="text/css" rel="stylesheet" href="../css/swiper.min.css" />
+	<link type="text/css" rel="stylesheet" href="../css/perfect-scrollbar.css" />
 	<link type="text/css" rel="stylesheet" href="../css/fontawesomepro531.css" />
 	<link type="text/css" rel="stylesheet" href="../css/style-pc.css" />
 	
@@ -421,6 +422,7 @@
 		</section>
 
 
+
 		<section class="section-scholarship clearfix">
 			<div class="triangle-up">
 				<span><i class="fal fa-angle-down"></i></span>
@@ -430,7 +432,7 @@
 					<div class="scholarship-box-title">
 						<h2 class="title-name">DANH SÁCH HỌC BỔNG</h2>
 					</div>
-					<div class="scholarship-box-list table-responsive-lg">
+					<div class="scholarship-box-list table-responsive-lg" id="js_table_scroll_w">
 
 						<div class="scholarship-table">
 							<div class="table100-head">
@@ -448,8 +450,8 @@
 								</table>
 							</div>
 
-							<div class="table100-body table-pscroll">
-								<table class="table js-pscroll ps ps--active-y">
+							<div class="table100-body table-pscroll" id="js_table_scroll_h" style="height: 396px;">
+								<table class="table">
 									<tbody>
 										<tr class="row100 body">
 											<td class="cell100 column1">University of Oxford</td>
@@ -507,6 +509,70 @@
 											<td class="cell100 column5">15%</td>
 											<td class="cell100 column6">Thời gian làm việc 3-5 năm</td>
 										</tr>
+										<tr class="row100 body">
+											<td class="cell100 column1">Leland Stanford Junior University</td>
+											<td class="cell100 column2">Đại học</td>
+											<td class="cell100 column3">Quản lý khách sạn</td>
+											<td class="cell100 column4">12</td>
+											<td class="cell100 column5">15%</td>
+											<td class="cell100 column6">Thời gian làm việc 3-5 năm</td>
+										</tr>
+										<tr class="row100 body">
+											<td class="cell100 column1">Leland Stanford Junior University</td>
+											<td class="cell100 column2">Đại học</td>
+											<td class="cell100 column3">Quản lý khách sạn</td>
+											<td class="cell100 column4">12</td>
+											<td class="cell100 column5">15%</td>
+											<td class="cell100 column6">Thời gian làm việc 3-5 năm</td>
+										</tr>
+										<tr class="row100 body">
+											<td class="cell100 column1">Leland Stanford Junior University</td>
+											<td class="cell100 column2">Đại học</td>
+											<td class="cell100 column3">Quản lý khách sạn</td>
+											<td class="cell100 column4">12</td>
+											<td class="cell100 column5">15%</td>
+											<td class="cell100 column6">Thời gian làm việc 3-5 năm</td>
+										</tr>
+										<tr class="row100 body">
+											<td class="cell100 column1">Leland Stanford Junior University</td>
+											<td class="cell100 column2">Đại học</td>
+											<td class="cell100 column3">Quản lý khách sạn</td>
+											<td class="cell100 column4">12</td>
+											<td class="cell100 column5">15%</td>
+											<td class="cell100 column6">Thời gian làm việc 3-5 năm</td>
+										</tr>
+										<tr class="row100 body">
+											<td class="cell100 column1">Leland Stanford Junior University</td>
+											<td class="cell100 column2">Đại học</td>
+											<td class="cell100 column3">Quản lý khách sạn</td>
+											<td class="cell100 column4">12</td>
+											<td class="cell100 column5">15%</td>
+											<td class="cell100 column6">Thời gian làm việc 3-5 năm</td>
+										</tr>
+										<tr class="row100 body">
+											<td class="cell100 column1">Leland Stanford Junior University</td>
+											<td class="cell100 column2">Đại học</td>
+											<td class="cell100 column3">Quản lý khách sạn</td>
+											<td class="cell100 column4">12</td>
+											<td class="cell100 column5">15%</td>
+											<td class="cell100 column6">Thời gian làm việc 3-5 năm</td>
+										</tr>
+										<tr class="row100 body">
+											<td class="cell100 column1">Leland Stanford Junior University</td>
+											<td class="cell100 column2">Đại học</td>
+											<td class="cell100 column3">Quản lý khách sạn</td>
+											<td class="cell100 column4">12</td>
+											<td class="cell100 column5">15%</td>
+											<td class="cell100 column6">Thời gian làm việc 3-5 năm</td>
+										</tr>
+										<tr class="row100 body">
+											<td class="cell100 column1">Leland Stanford Junior University</td>
+											<td class="cell100 column2">Đại học</td>
+											<td class="cell100 column3">Quản lý khách sạn</td>
+											<td class="cell100 column4">12</td>
+											<td class="cell100 column5">15%</td>
+											<td class="cell100 column6">Thời gian làm việc 3-5 năm</td>
+										</tr>
 									</tbody>
 								</table>
 							</div>
@@ -517,126 +583,6 @@
 			</div>
 		</section>
 
-
-		<section class="section-scholarship clearfix">
-			<div class="triangle-up">
-				<span><i class="fal fa-angle-down"></i></span>
-			</div>
-			<div class="container clearfix">
-				<div class="news-inner">
-					<div class="scholarship-box-title">
-						<h2 class="title-name">DANH SÁCH HỌC BỔNG</h2>
-					</div>
-					<div class="scholarship-box-list">
-						<div class="table-responsive-sm">
-							<table class="table scholarship-table">
-								<thead>
-									<tr>
-										<th>Trường</th>
-										<th>Loại hình đào tạo</th>
-										<th>Ngành đào tạo</th>
-										<th>Số lượng</th>
-										<th>% học bổng</th>
-										<th>Yêu cầu</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>University of Oxford</td>
-										<td>Cử nhân</td>
-										<td>Công nghệ thông tin</td>
-										<td>30</td>
-										<td>50%</td>
-										<td>Thời gian làm việc 3-5 năm</td>
-									</tr>
-									<tr>
-										<td>University of Oxford</td>
-										<td>Cử nhân</td>
-										<td>Công nghệ thông tin</td>
-										<td>30</td>
-										<td>50%</td>
-										<td>Thời gian làm việc 3-5 năm</td>
-									</tr>
-									<tr>
-										<td>University of Oxford</td>
-										<td>Cử nhân</td>
-										<td>Công nghệ thông tin</td>
-										<td>30</td>
-										<td>50%</td>
-										<td>Thời gian làm việc 3-5 năm</td>
-									</tr>
-									<tr>
-										<td>University of Oxford</td>
-										<td>Cử nhân</td>
-										<td>Công nghệ thông tin</td>
-										<td>30</td>
-										<td>50%</td>
-										<td>Thời gian làm việc 3-5 năm</td>
-									</tr>
-									<tr>
-										<td>University of Oxford</td>
-										<td>Cử nhân</td>
-										<td>Công nghệ thông tin</td>
-										<td>30</td>
-										<td>50%</td>
-										<td>Thời gian làm việc 3-5 năm</td>
-									</tr>
-									<tr>
-										<td>Leland Stanford Junior University</td>
-										<td>Đại học</td>
-										<td>Quản lý khách sạn</td>
-										<td>12</td>
-										<td>15%</td>
-										<td>Thời gian làm việc 3-5 năm</td>
-									</tr>
-									<tr>
-										<td>Leland Stanford Junior University</td>
-										<td>Đại học</td>
-										<td>Quản lý khách sạn</td>
-										<td>12</td>
-										<td>15%</td>
-										<td>Thời gian làm việc 3-5 năm</td>
-									</tr>
-									<tr>
-										<td>Leland Stanford Junior University</td>
-										<td>Đại học</td>
-										<td>Quản lý khách sạn</td>
-										<td>12</td>
-										<td>15%</td>
-										<td>Thời gian làm việc 3-5 năm</td>
-									</tr>
-									<tr>
-										<td>Leland Stanford Junior University</td>
-										<td>Đại học</td>
-										<td>Quản lý khách sạn</td>
-										<td>12</td>
-										<td>15%</td>
-										<td>Thời gian làm việc 3-5 năm</td>
-									</tr>
-									<tr>
-										<td>Leland Stanford Junior University</td>
-										<td>Đại học</td>
-										<td>Quản lý khách sạn</td>
-										<td>12</td>
-										<td>15%</td>
-										<td>Thời gian làm việc 3-5 năm</td>
-									</tr>
-									<tr>
-										<td>Leland Stanford Junior University</td>
-										<td>Đại học</td>
-										<td>Quản lý khách sạn</td>
-										<td>12</td>
-										<td>15%</td>
-										<td>Thời gian làm việc 3-5 năm</td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
-				
-			</div>
-		</section>
 
 
 
@@ -1312,6 +1258,7 @@
 	<script src="../js/bootstrap.min.js"></script>
 	<script src="../js/jquery.countdown.min.js" defer></script>
 	<script src="../js/swiper.min.js" defer></script>
+	<script src="../js/perfect-scrollbar.js" defer></script>
 	<script src="../js/script.js" defer></script>
 	<!-- <script src="theme/frontend/js/fontawesome.js" defer></script> -->
 	
@@ -1332,6 +1279,11 @@
 				);
 			});
 		});
+
+	</script>
+
+	<script>
+		// Initialize the plugin
 
 	</script>
 </body>
