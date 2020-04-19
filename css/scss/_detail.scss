@@ -1,0 +1,145 @@
+.oFair {
+	.section-seminor-detail {
+		position: relative;
+		display: block;
+		padding: 40px 0;
+		background: #F7F7F7;
+		.seminor-inner {
+			display: block;
+			max-width: 750px;
+			margin: 0 auto;
+			overflow: hidden;
+		}
+		.seminor-box-title {
+			position: relative;
+			display: block;
+			width: 100%;
+			vertical-align: top;
+			color: #333333;
+			text-align: center;
+			.title-name {
+				position: relative;
+				display: block;
+				font-family: 'Averta-Bold';
+				font-size: 26px;
+				line-height: 31px;
+				margin-bottom: 20px;
+				padding: 0 0 25px;
+				text-transform: uppercase;
+				&:before {
+					content: "";
+					position: absolute;
+					width: 175px;
+					height: 15px;
+					background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='176' height='15' viewBox='0 0 176 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cg clip-path='url(%23clip0)'%3e%3crect x='0.928925' y='6.57104' width='70' height='1' fill='%23C9C9C9'/%3e%3crect x='88' width='10' height='10' transform='rotate(45 88 0)' fill='%23C9C9C9'/%3e%3crect x='105.071' y='6.57104' width='70' height='1' fill='%23C9C9C9'/%3e%3c/g%3e%3cdefs%3e%3cclipPath id='clip0'%3e%3crect x='0.928925' width='174.142' height='14.1421' fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+					bottom: 0;
+					left: 0;
+					right: 0;
+					margin: 0 auto;
+					pointer-events: none;
+				}
+			}
+			.title-sub {
+				position: relative;
+				display: block;
+				width: 100%;
+				height: 103px;
+				font-size: 18px;
+				line-height: 1.4;
+				text-align: justify;
+				margin-bottom: 25px;
+			}
+		}
+		.box-img {
+			width: 100%;
+			text-align: center;
+			img {
+				width: auto;
+				max-width: 100%;
+				height: auto;
+			}
+		}
+		.seminor-box-content {
+			position: relative;
+			display: block;
+			vertical-align: top;
+			width: 100%;
+			padding: 20px 40px;
+			.tag-time {
+				position: relative;
+				display: inline-block;
+				width: 100%;
+				height: 36px;
+				margin-bottom: 15px;
+				.time-icon {
+					position: relative;
+					float: left;
+					width: 36px;
+					height: 36px;
+					line-height: 36px;
+					background: #2575FC;
+					color: #fff;
+					border-radius: 3px;
+					text-align: center;
+					font-size: 18px;
+				}
+				.time-date {
+					padding-left: 15px;
+					font-size: 14px;
+					line-height: 36px;
+					color: #333333;
+					vertical-align: top;
+					white-space: nowrap;
+				}
+			}
+			.seminor-title {
+				position: relative;
+				display: block;
+				font-family: 'Averta-Bold';
+				font-size: 28px;
+				line-height: 34px;
+				text-transform: uppercase;
+				color: #242732;
+			}
+			.seminor-content {
+				position: relative;
+				display: block;
+				width: 100%;
+				font-size: 16px;
+				line-height: 1.5;
+				color: #242732;
+				overflow: auto;
+				img {
+					width: auto;
+					max-width: 100%;
+					height: auto;
+				}
+			}
+			.btn-register {
+				position: relative;
+				display: block;
+				width: 85px;
+				height: 34px;
+				line-height: 34px;
+				margin: 15px auto;
+				background: #2575FC;
+				color: #fff;
+				border: 0;
+				border-radius: 3px;
+				text-align: center;
+				text-decoration: none;
+				text-transform: uppercase;
+				outline: none;
+			}
+		}
+		@media (max-width: 575px) {
+			.seminor-box-content {
+				position: relative;
+				display: block;
+				vertical-align: top;
+				width: 100%;
+				padding: 20px 0;
+			}
+		}
+	}
+}
