@@ -288,6 +288,7 @@ img:not([src]) {
 		}
 
 		@media (max-width: 991px) {
+			padding-bottom: 5px;
 			.header-main { 
 				.header-left { 
 					float: none;
@@ -303,6 +304,7 @@ img:not([src]) {
 				.header-right {
 					float: none;
 					width: 100%;
+					padding-top: 25px;
 					ul { 
 						display: flex;
 						float: none;

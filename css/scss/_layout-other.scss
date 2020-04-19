@@ -1,5 +1,7 @@
 
 .oFair {
+
+
 	.banner-top {
 		position: relative;
 		display: block;
@@ -267,6 +269,25 @@
 			}
 		}
 	}
+	
+	.banner-top-small {
+		position: relative;
+		display: block;
+		width: 100%;
+		overflow: hidden;
+		.banner-img {
+			position: relative;
+			display: block;
+			width: 100%;
+			height: 140px;
+			background: #f2f2f2;
+			background-size: cover;
+			background-position: center;
+			background-repeat: no-repeat;
+		}
+	}
+
+
 	.section-intro {
 		position: relative;
 		display: block;

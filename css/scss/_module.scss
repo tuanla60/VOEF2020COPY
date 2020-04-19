@@ -749,6 +749,7 @@
 	}
 
 
+
 	.section-scholarship {
 		position: relative;
 		display: block;
@@ -765,159 +766,7 @@
 			top: 0;
 			width: 100%;
 			text-align: center;
-			&:before {
-				content: "";
-				position: absolute;
-				display: block;
-				width: 35px;
-				height: 74px;
-				left: -39px;
-				right: 0;
-				top: -35px;
-				margin: auto;
-				background: -webkit-linear-gradient(355deg, #6A11CB 0%, #2575FC 100%);
-				background: -o-linear-gradient(355deg, #6A11CB 0%, #2575FC 100%);
-				background: linear-gradient(85deg, #6A11CB 0%, #2575FC 100%);
-				background-attachment: fixed;
-				border-radius: 10px;
-				transform: rotate(60deg);
-			}
-			&:after {
-				content: "";
-				position: absolute;
-				display: block;
-				width: 74px;
-				height: 35px;
-				left: 46px;
-				right: 0;
-				top: -14px;
-				margin: auto;
-				background: -webkit-linear-gradient(355deg, #6A11CB 0%, #2575FC 100%);
-				background: -o-linear-gradient(355deg, #6A11CB 0%, #2575FC 100%);
-				background: linear-gradient(85deg, #6A11CB 0%, #2575FC 100%);
-				background-attachment: fixed;
-				border-radius: 10px;
-				transform: rotate(30deg);
-			}
-			span {
-				position: absolute;
-				display: block;
-				z-index: 1;
-				top: -30px;
-				left: 0;
-				right: 0;
-				margin: 0 auto;
-				width: 100px;
-				height: 35px;
-				line-height: 38px;
-				font-size: 21px;
-				color: #fff;
-				text-align: center;
-			}
-		}
-		.scholarship-inner {
-			display: block;
-		}
-		.scholarship-box-title {
-			position: relative;
-			display: block;
-			width: 100%;
-			vertical-align: top;
-			color: #ffffff;
-			text-align: center;
-			z-index: 2;
-			.title-name {
-				position: relative;
-				display: block;
-				font-family: 'Averta-Bold';
-				font-size: 24px;
-				line-height: 29px;
-				margin-bottom: 20px;
-				padding: 0 0 25px;
-				text-transform: uppercase;
-				&:before {
-					content: "";
-					position: absolute;
-					width: 175px;
-					height: 15px;
-					background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='176' height='15' viewBox='0 0 176 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cg clip-path='url(%23clip0)'%3e%3crect x='0.928925' y='6.57104' width='70' height='1' fill='%232575FC'/%3e%3crect x='88' width='10' height='10' transform='rotate(45 88 0)' fill='%232575FC'/%3e%3crect x='105.071' y='6.57104' width='70' height='1' fill='%232575FC'/%3e%3c/g%3e%3cdefs%3e%3cclipPath id='clip0'%3e%3crect x='0.928925' width='174.142' height='14.1421' fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e ");
-					bottom: 0;
-					left: 0;
-					right: 0;
-					margin: 0 auto;
-					pointer-events: none;
-				}
-			}
-			.title-sub {
-				position: relative;
-				display: block;
-				width: 100%;
-				height: 103px;
-				font-size: 18px;
-				line-height: 1.4;
-				text-align: justify;
-				margin-bottom: 25px;
-			}
-		}
-		.scholarship-box-list {
-			position: relative;
-			display: block;
-			float: left;
-			vertical-align: top;
-			width: 100%;
-			.table-responsive-sm {
-
-			}
-			.scholarship-table {
-				min-width: 690px;				
-				font-family: Arial;
-				font-style: normal;
-				font-weight: normal;
-				font-size: 15px;
-				line-height: 17px;
-				color: #333333;
-				thead {
-					padding: 0 20px;
-					white-space: nowrap;
-					background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='1101' height='58' viewBox='0 0 1101 58' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M0 0.344238H1044C1075.48 0.344238 1101 25.864 1101 57.3442H0V0.344238Z' fill='%232575FC'/%3e%3c/svg%3e ");
-					background-repeat: no-repeat;
-					background-size: 100% 100%;
-				}
-				tbody {
-					background: #F7F9FB;
-					padding: 0 20px;
-					height: 396px;
-					overflow-y: auto;
-				}
-			}
-			th {
-				font-family: 'Averta-Bold';
-				font-size: 18px;
-				line-height: 22px;
-				color: #fff;
-				padding: 22px 10px 13px;
-				text-align: left;
-				border-color: transparent;
-			}
-		}
-	}
-
-	.section-university-tab {
-		position: relative;
-		display: block;
-		clear: both;
-		padding: 30px 0;
-		background-color: #6A11CB;
-		background: -webkit-linear-gradient(355deg, #6A11CB 0%, #2575FC 100%);
-		background: -o-linear-gradient(355deg, #6A11CB 0%, #2575FC 100%);
-		background: linear-gradient(85deg, #6A11CB 0%, #2575FC 100%);
-		background-attachment: fixed;
-		.triangle-up {
-			position: absolute;
-			display: block;
-			top: 0;
-			width: 100%;
-			text-align: center;
+			z-index: 1;
 			&:before {
 				content: "";
 				position: absolute;
@@ -1024,16 +873,14 @@
 			.scholarship-table {
 				position: relative;
 				display: block;
-				min-width: 850px;
+				min-width: 925px;
 				.table100-head {
 					position: relative;
 					display: block;
 					padding: 0 34px;
 					white-space: nowrap;
-					background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='1110' height='58' viewBox='0 0 1110 58' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cpath d='M0 0.344238H1044C1075.48 0.344238 1110 25.864 1110 57.3442H0V0.344238Z' fill='%232575FC'/%3e%3c/svg%3e ");
-					background-repeat: no-repeat;
-					background-position: bottom left;
-					background-size: 100% auto;
+					background-color: #2575fc;
+					border-radius: 0 50px 0 0;
 				}
 				.table100-body {
 					position: relative;
@@ -1057,7 +904,7 @@
 					line-height: 17px;
 					color: #333333;
 					th.cell100 {
-						padding: 22px 15px 13px 0;
+						padding: 22px 10px 13px 0;
 						font-family: 'Averta-Bold';
 						font-size: 18px;
 						line-height: 22px;
@@ -1090,25 +937,18 @@
 				}
 			}
 		}
-		@media (max-width: 991px) {
+		@media (max-width: 1199px) {
 			.scholarship-box-list {
 				.scholarship-table {
 					.table100-head {
 						padding: 0 15px;
-						background-size: auto;
 					}
 					.table100-body {
 						padding: 0 15px;
-						&.table-pscroll {
-							max-height: 396px;
-							overflow: hidden;
-							overflow: auto;
-						}
 					}
 					table {
 						font-size: 14px;
 						th.cell100 {
-							padding: 12px 15px 7px 0;
 							font-size: 14px;
 							line-height: 18px;
 						}
@@ -1117,6 +957,7 @@
 			}
 		}
 	}
+
 
 	.section-university-tab {
 		position: relative;
@@ -1981,6 +1822,37 @@
 				text-align: center;
 			}
 		}
+
+		// .triangle-up {
+		// 	position: absolute;
+		// 	display: block;
+		// 	text-align: center;			
+		// 	display: block;
+		// 	height: 74px;
+		// 	width: 74px;
+		// 	background: inherit;
+		// 	position: absolute;
+		// 	top: -37px;
+		// 	left: calc(50% - 30px);
+		// 	clip-path: polygon(0% 0%, 100% 100%, 80% 20%);
+		// 	transform: rotate(-45deg);
+		// 	border-radius: 0 65px 0 0;
+		// 	span {
+		// 		position: absolute;
+		// 		display: block;
+		// 		z-index: 1;
+		// 		top: 14px;
+		// 		left: -4px;
+		// 		margin: 0 auto;
+		// 		width: 100px;
+		// 		height: 28px;
+		// 		line-height: 40px;
+		// 		font-size: 21px;
+		// 		color: #fff;
+		// 		text-align: center;
+		// 		transform: rotate(45deg);
+		// 	}
+		// }
 		.faq-inner {
 			display: block;
 		}
@@ -2082,8 +1954,7 @@
 					display: block;
 					width: 100%;
 					text-align: left;
-					padding-left: 35px;
-					padding-right: 25px;
+					padding: 10px 25px 10px 35px;
 					color: #333333;
 					font-size: 16px;
 					line-height: 19px;
@@ -2189,4 +2060,217 @@
 			}
 		}
 	}
+
+
+
+	// Start Đội ngũ tư vấn
+	.section-team {
+		position: relative;
+		display: block;
+		padding: 40px 0;
+		background: #F7F9FB;
+		.team-inner {
+			display: block;
+		}
+		.team-box-title {
+			position: relative;
+			display: block;
+			clear: both;
+			width: 100%;
+			vertical-align: top;
+			color: #333333;
+			text-align: center;
+			.title-name {
+				position: relative;
+				display: block;
+				font-family: 'Averta-Bold';
+				font-size: 26px;
+				line-height: 31px;
+				margin-bottom: 20px;
+				padding: 0 0 25px;
+				text-transform: uppercase;
+				&:before {
+					content: "";
+					position: absolute;
+					width: 175px;
+					height: 15px;
+					background-image: url("data:image/svg+xml;charset=UTF-8,%3csvg width='176' height='15' viewBox='0 0 176 15' fill='none' xmlns='http://www.w3.org/2000/svg'%3e%3cg clip-path='url(%23clip0)'%3e%3crect x='0.928925' y='6.57104' width='70' height='1' fill='%23C9C9C9'/%3e%3crect x='88' width='10' height='10' transform='rotate(45 88 0)' fill='%23C9C9C9'/%3e%3crect x='105.071' y='6.57104' width='70' height='1' fill='%23C9C9C9'/%3e%3c/g%3e%3cdefs%3e%3cclipPath id='clip0'%3e%3crect x='0.928925' width='174.142' height='14.1421' fill='white'/%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
+					bottom: 0;
+					left: 0;
+					right: 0;
+					margin: 0 auto;
+					pointer-events: none;
+				}
+			}
+			.title-sub {
+				position: relative;
+				display: block;
+				width: 100%;
+				font-size: 15px;
+				line-height: 1.7;
+				text-align: justify;
+				margin: 0 auto;
+				margin-bottom: 25px;
+				max-width: 670px;
+				text-align: center;
+				color: #666666;
+			}
+		}
+		.team-box-list {
+			position: relative;
+			display: block;
+			vertical-align: top;
+			width: 100%;
+			text-align: center;
+			.team-list {
+				position: relative;
+				display: block;
+				overflow: hidden;
+				text-align: center;
+				display: flex;
+				flex-wrap: wrap;
+				justify-content: space-around;
+				.item-team {
+					display: block;
+					display: inline-block;
+					vertical-align: middle;
+					width: calc(100% / 4);
+					padding: 0;
+					margin: 0 0 20px;
+					align-self: baseline;
+					.item-inner {
+						display: block;
+						.item-image {
+							display: block;
+							overflow: hidden;
+							.item-image-a {
+								position: relative;
+								display: block;
+								margin: 0 auto 10px;
+								svg {
+									pointer-events: none;
+								}
+								&:hover {
+									svg {
+										path {
+											&:nth-child(3) {
+												fill: none;
+											}
+										}
+									}
+								}
+							}
+							img {
+								max-width: 100%;
+								max-height: 150px;
+								margin: auto;
+							}
+						
+							.item-name {
+								font-family: 'Averta-Bold';
+								font-size: 16px;
+								line-height: 19px;
+								text-align: center;
+								color: #333333;
+							}
+							.item-position {
+								font-size: 12px;
+								line-height: 1.5;
+								text-align: center;
+								color: #666666;
+							}
+						}
+						.wrap-item-txt {
+							display: none;
+							&.active {
+								display: block;
+								.item-txt {
+									height: auto;
+								}
+							}
+							.item-txt {
+								display: none;
+								position: absolute;
+								background: #fff;
+								z-index: 2;
+								padding: 15px;
+								text-align: left;
+								left: 0;
+								font-size: 15px;
+								line-height: 1.6;
+								color: #333333;
+								border: 1px solid #DDDDDD;
+							}
+						}
+					}
+					&.active {
+						&:after {
+							content: "";
+							position: relative;
+							display: block;
+							z-index: 2;
+							top: -8px;
+							left: 0;
+							right: 0;
+							margin: 0 auto;
+							width: 0;
+							height: 0;
+							border-left: 10px solid transparent;
+							border-right: 10px solid transparent;
+							border-bottom: 10px solid #fff;
+							filter: drop-shadow(0px -2px 0px #ddd);
+						}
+						.item-inner {
+							.wrap-item-txt {
+								display: block;
+								.item-txt {
+									display: block;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+
+		@media (max-width: 991px) {
+			.team-box-list {
+				.team-list {
+					.item-team {
+						width: calc(100% / 2);
+					}
+				}
+			}
+		}
+		@media (max-width: 479px) {
+			.team-box-list {
+				.team-list {
+					.item-team {
+						.item-inner .item-image .item-image-a {
+							svg {
+								width: 150px;
+								height: 150px;
+							}
+						}
+					}
+				}
+			}
+		}
+		@media (max-width: 374px) {
+			.team-box-list {
+				.team-list {
+					.item-team {
+						.item-inner .item-image .item-image-a {
+							svg {
+								width: 120px;
+								height: 120px;
+							}
+						}
+					}
+				}
+			}
+		}
+
+	}
+	// End Đội ngũ tư vấn
 }

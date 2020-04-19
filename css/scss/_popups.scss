@@ -1,4 +1,4 @@
-.view_pc {
+.oFair {
 
 	// Start box_popup_warning
 	.box-popup-warning-logout,
@@ -904,4 +904,35 @@
 		}
 	}
 	// End box_popup_warning_transportation
+
+
+	.modal-seminor {
+		.modal-title {
+			font-family: 'Averta-Bold';
+			font-size: 26px;
+			line-height: 31px;
+			text-transform: uppercase;
+			color: #333333;
+		}
+		@media (min-width: 992px) {
+			.modal-dialog {
+				max-width: 614px;
+				.col-form-label {
+					font-size: 16px;
+				}
+			}
+		}
+	}
+
+	span.help-block {
+		position: relative;
+		display: none;
+		clear: both;
+		margin-top: 5px;
+		margin-bottom: 0;
+		color: #BF0000;
+		font-size: 13px;
+		font-style: italic;
+		line-height: 21px;
+	}
 }
